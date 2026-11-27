@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bargain Beacon — Real Black Friday Deals, Checked by Hand</title>
+<meta name="description" content="32 real Black Friday and Cyber Monday deals at 8 stores, each price checked on 27 Nov 2026 with an honest verdict on whether it is really a deal.">
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <svg width="44" height="44" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="20" fill="#ffb020"/><path d="M22 8 L27 18 L38 18 L29 25 L32 36 L22 29 L12 36 L15 25 L6 18 L17 18 Z" fill="#241300"/></svg>
+      <span>Bargain Beacon<small>Real Black Friday deals — checked, not copied</small></span>
+    </div>
+    <p class="tagline">Every deal below was found and checked by hand on Black Friday itself: the product, the store, the sale price, the usual price, and an honest verdict on whether it is really a bargain.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <section id="list-view">
+    <div class="stats" id="stats" aria-label="Board totals"></div>
+
+    <div class="toolbar" role="search">
+      <input type="search" id="search" placeholder="Search deals — try “AirPods”, “vacuum”, “LEGO”…" aria-label="Search deals">
+      <select id="category" aria-label="Filter by category"></select>
+      <select id="store" aria-label="Filter by store"></select>
+      <select id="discount" aria-label="Filter by discount"></select>
+      <select id="sort" aria-label="Sort deals"></select>
+    </div>
+    <p class="count-line" id="count-line"></p>
+    <p class="checked-line" id="checked-line"></p>
+
+    <div class="grid" id="deal-grid"></div>
+    <div id="empty-holder"></div>
+
+    <section class="method" id="method">
+      <h2>How this board checks a deal</h2>
+      <ul>
+        <li><strong>Read, not guessed.</strong> Each price was read on 27 Nov 2026 at the store or in the deals source named on the deal card. The “usual price” is the one that source itself stated.</li>
+        <li><strong>An honest verdict.</strong> <strong>NEW LOW</strong> means the lowest price ever tracked. <strong>STRONG DEAL</strong> is a real cut, well under list. <strong>GOOD PRICE</strong> saves money but a rival store beats it. <strong>ROUTINE SALE</strong> is a small cut — think twice. <strong>REFURB STEAL</strong> is cheapest, but refurbished, not new.</li>
+        <li><strong>Same product, two stores.</strong> Where the board tracked one product at two stores, the deal page compares them, so you buy the cheaper one.</li>
+        <li><strong>Prices move.</strong> Sale prices can change or sell out within hours. Check the store link before you buy — the link goes to the store's own search for that product.</li>
+      </ul>
+      <p class="fine">Bargain Beacon is an independent deal board. It is not affiliated with Amazon, Walmart, Best Buy, Target, Costco, Kohl's, eBay or Newegg, and it earns nothing from the links on this page.</p>
+    </section>
+  </section>
+
+  <section id="detail" hidden></section>
+</div>
+
+<footer>Black Friday 27 Nov – Cyber Monday 30 Nov 2026 · Prices checked 27 Nov 2026 · Bargain Beacon</footer>
+</body>
+</html>
